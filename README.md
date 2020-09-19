@@ -1,2 +1,3 @@
-# moveql
+# movieql
+
 Movie API with GraphQL
