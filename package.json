@@ -2,15 +2,16 @@
   "name": "movieql",
   "version": "1.0.0",
   "description": "Movie API with GraphQL",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "https://github.com/airus2302/movieql.git",
   "author": "Airus",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.20.0",
     "graphql-yoga": "^1.18.3"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node src/index.js"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
